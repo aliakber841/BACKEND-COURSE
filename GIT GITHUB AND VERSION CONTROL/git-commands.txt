@@ -1,0 +1,38 @@
+mkdir-----make a new directory
+touch------make a new file
+git init-----initialize git
+cd------to go into the folder
+.. -------- to go one step into the folder
+ls----shows all the files in the directory (excluding hidden ones)
+ls-a  ---shows all the files in the directory (including hidden ones)
+git status------ whether the file is in staging area or not
+git add---- to add the file in the staging area
+git commit -m ""---- to commit changes
+git log---- to show the details of the commit
+git add . ---- will add all files in the staging area
+git rm --cached -r . ----- will remove all the files from the staging area
+git diff (filename)---- will tell the difference between current and previous file
+git checkout----- to roll back to the previous commit of the file
+
+-----GITHUB AND REMOTE REPOSITORIES----
+git remote add origin (link of url of github repo)
+git push -u origin main
+
+---- CLONING-----
+To clone others REPOSITORIES
+git clone url (link of github repo you want to clone)
+
+-----BRANCHING AND MERGING------
+Branching is used to test your existing code (updating/ testing features) 
+so your main branch (main code) will not be affected
+branch ---- git branch (branch-name)
+git branch---- to see which branch we are in (main or another one we created)
+git checkout (branch-name)---- to switch any branch you want
+git branch (branch-name)---- merge changes made to branch in which you test the code to the main branch
+
+-----FORKING AND PULL REQUESTS-----
+Forked someone's repository then it will be avaliable on your own account.
+If you made changes to their code and added some features then if the owner of the repository 
+likes that so he will commit changes to it by making a pull request so in this way your
+contribution will be also counted. 
+Useful for working in group projects.
